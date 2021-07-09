@@ -1,0 +1,2 @@
+# -Column-preview
+responsive
