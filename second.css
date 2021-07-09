@@ -1,0 +1,152 @@
+#container{
+    
+    width: 70%;
+
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+
+#container div{
+    
+  
+    height: 500px;
+
+    flex-grow:1 ;
+} 
+.all{
+    
+    padding-left: 10px;
+    color: white;
+    margin: 5px;
+    
+    
+}
+.all button:hover{
+        border-color: #f1ff5c;
+        color: #ffff;
+        box-shadow: 0 0.5em 0.5em -0.4em olive;
+        cursor: pointer;
+        transform: translateY(0.26em);
+        
+    }
+
+
+    
+
+#first h1{
+    font-size: 40px;
+}
+#first p{
+    line-height: 1.5;
+    font-size:20px ;
+}
+
+ #first button{
+    background: none;
+    color: #e28525;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: large;
+    border-radius: 40px;
+    background-color:white;
+    
+    
+
+}
+
+#second h1{
+    font-size: 40px;
+}
+#second p{
+    line-height: 1.5;
+    font-size:20px ;
+}
+
+ #second button{
+    background: none;
+    color: #016972;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: large;
+    border-radius: 40px;
+    background-color:white;
+    
+    
+
+}
+
+#third h1{
+    font-size: 40px;
+}
+#third p{
+    line-height: 1.5;
+    font-size:20px ;
+}
+
+ #third button{
+    background: none;
+    color: #00403f;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: large;
+    border-radius: 40px;
+    background-color:white;
+    
+    
+
+}
+
+@media (max-width:830px)  {
+
+    #container{
+        
+        width: 50%;
+    
+    
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin: 50px;
+        height: 600;
+    }
+
+    
+#container div{
+
+  
+    height: 600px;
+
+
+
+}
+    
+
+.all{
+
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+    margin: 5px;
+    height: 400;
+    
+    
+}
+.all p{
+    padding-top: 10px;
+}
+
+.all button{
+    margin-top: 10px;
+    padding-top: 50px;
+    
+    
+    
+
+}
+    
+}
